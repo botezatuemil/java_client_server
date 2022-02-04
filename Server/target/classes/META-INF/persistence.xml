@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="competition">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+        <class>database.model.PersonEntity</class>
+        <class>database.model.ParticipationEntity</class>
+        <class>database.model.TeamEntity</class>
+        <class>database.model.StageEntity</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost:5432/competition"/>
+            <property name="eclipselink.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="eclipselink.jdbc.user" value="postgres"/>
+            <property name="eclipselink.jdbc.password" value="root"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>

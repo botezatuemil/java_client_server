@@ -1,0 +1,14 @@
+Server\ServerThread.class
+database\dao\StageDao.class
+Packet\Packet.class
+Server\Server.class
+database\model\PersonEntity.class
+database\dao\ParticipationDao.class
+database\model\StageEntity.class
+database\dao\PersonDao.class
+database\model\TeamEntity.class
+Main.class
+database\model\ParticipationEntity.class
+database\dao\DaoI.class
+database\dao\TeamDao.class
+database\DatabaseConnection.class
